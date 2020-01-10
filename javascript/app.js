@@ -84,7 +84,7 @@ function random(min, max) {
 }
 
 function timer() {
-    let interval = setInterval(() => {
+    const interval = setInterval(() => {
         if (time > 0) time--
         if (time === 0) {
             clearInterval(interval)
